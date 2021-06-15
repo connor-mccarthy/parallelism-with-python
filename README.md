@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Parallelism with Python</h2>
+  <h1>Parallelism with Python</h1>
   <h2>Multithreading, multiprocessing, execution pools, asyncio, and Cython</h2>
 
 <p align="center">
