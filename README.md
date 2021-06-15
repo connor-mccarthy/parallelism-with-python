@@ -19,15 +19,6 @@ I went exploring parallelism in Python.
 
 Below are some comparisons benchmarking performance of different parallel programming approaches for solving arbitrary I/O and compute tasks. The tasks vary between approaches (i.e. between async/await and multiprocessing) and are not directly comparable.
 
-To reproduce:
-
-```sh
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python src/demos/main.py
-```
-
 Results:
 
 ```
@@ -55,4 +46,13 @@ Threading with execution pools
    Slower approach: Finished 'no_threading_execution_pool' in 4.0097s
    Faster approach: Finished 'yes_threading_execution_pool' in 1.0066s
    Speed improvement 3.98x
+```
+
+To reproduce:
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python src/demos/main.py
 ```
