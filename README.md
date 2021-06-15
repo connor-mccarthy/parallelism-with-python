@@ -48,6 +48,8 @@ Threading with execution pools
    Speed improvement 3.98x
 ```
 
+Note: The speed improvement multipliers will typically be even larger for larger amounts of work, as the "spin-up" time of each approach will make up a smaller fraction of the total work/waiting time. This is a blunt benchmark.
+
 To reproduce:
 
 ```sh
