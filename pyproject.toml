@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "multithreading-multiprocessing-asyncio-python"
+name = "parallelism-with-python"
 version = "0.1.0"
 description = ""
 authors = ["Connor McCarthy <mccarthy.connor.james@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/connor-mccarthy/async-techniques-python"
+repository = "https://github.com/connor-mccarthy/parallelism-with-python"
 keywords = []
 
 [tool.poetry.dependencies]
